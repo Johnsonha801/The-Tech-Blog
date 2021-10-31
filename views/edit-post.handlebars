@@ -1,0 +1,30 @@
+<a href='/dashboard'><< dashboard</a>
+<h2>Edit Post</h2>
+<hr>
+
+<form class='update-post-form mb-5'>
+    <div class="form-group">
+        <label for='title'>Title</label>
+        <input type='text' id='title' class="form-control" name='title' value='{{post.title}}'>
+        
+    </div>
+    <div class="form-group">
+        <label for='post_body'>Body</label>
+        <textarea id='post_body' class="form-control" name='post-body'>{{post.post_body}}</textarea>
+    </div>
+    <div class="form-group">
+        <button type='submit' class='btn btn-primary d-inline'>Update Post</button>
+        <button id='delete-btn' class='btn btn-outline-danger d-inline float-right'>Delete Post</button>
+
+    </div>
+</form>
+
+
+<h5>Comments</h5>
+{{> add-comment}}
+
+{{> comments post.comments}}
+
+
+<script src="/javascript/updatePost.js"></script>
+<script src="/javascript/deletePost.js"></script>

@@ -1,0 +1,9 @@
+<h2>Dashboard</h2>
+<hr>
+<h4 class='d-inline'>My Posts</h4>
+<a href='/dashboard/create' class='d-inline btn btn-primary float-right'>+ Create post</a>
+{{#each posts as |post|}}
+    <a class='post' href='/dashboard/edit/{{post.id}}'>
+        {{> post-card post}}
+    </a>
+{{/each}}

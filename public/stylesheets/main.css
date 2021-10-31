@@ -1,0 +1,48 @@
+* {
+
+}
+
+
+
+
+header nav {
+    background-color: #000000 !important;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px 15px;
+}
+
+.card {
+    margin: 25px 0;
+}
+
+
+.author {
+    color:#A9A9A9;
+}
+.post {
+    color: #000000;
+}
+.post:hover {
+    text-decoration: none;
+}
+.post .card:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+}
+.login-container {
+    padding: 15px;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+}
+
+.btn {
+    min-width: 150px;
+}
+.white {
+    color: #FFFFFF;
+}
