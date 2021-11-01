@@ -40,7 +40,7 @@ app.use(require('./controllers'));
 const PORT = process.env.PORT || 3001;
 
 // Connect to server if valid db connection established
-sequelize.sync({force: false}).then(() => {
+sequelize.sync({force: true}).then(() => {
     app.listen(PORT, () => 
         console.log(`Server listening on port ${PORT}!`));
 });
