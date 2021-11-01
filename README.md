@@ -29,4 +29,4 @@ Deployed Application: [The Tech Blog](https://bloodcurdling-dungeon-16014.heroku
 GitHub profile [Johnsonha801](https://github.com/Johnsonha801)
 
 ## Application
-![Working Project Screenshot]()
+![Working Project Screenshot](https://user-images.githubusercontent.com/84554237/139610970-70fa8896-cfb9-4fcf-93a5-aa8e686171d9.png)
